@@ -1,0 +1,7 @@
+#!/bin/bash
+
+# This script copies all HTML files from the current working directory
+# to the parent directory, but only if the files are newer than the
+# versions in the parent directory or if they don't exist there.
+
+cp -u *.html ..
